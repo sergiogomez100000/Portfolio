@@ -2,7 +2,7 @@
 My Portfolio is an application where users can see my work portfolio and any useful information about me. It is easily accessible using navigation links, headings and sections, images representing previous projects,and links to contact me. You can click on navigational links to bring you to certain sections, click on project links to open up past projects, and click on contact links for forms of contact.
 
 ## Link
-You can use this link (https://sergiogomez100000.github.io/Portfolio/.) to travel to my portfolio.
+You can use this link (https://sergiogomez100000.github.io/Portfolio/Index.html.) to travel to my portfolio.
 
 ## Usage
 
