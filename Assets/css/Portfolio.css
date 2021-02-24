@@ -1,60 +1,83 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+body {
+    background-color: slategray;
+}
+/*want the header to have a border, close to top, display in line but block other elements*/
 header {
         top: 0;
         display:inline-block;
         width: 100%;
-        background-color: lightblue;
+        background-color: skyblue;
+        border: solid 1px black;
 }
-
+/*want the header navigation bar to float to the right, have a border and background color*/
 header nav {
     float: right;
     margin-right: 100px;
+    background-color:whitesmoke;
+    border:black solid 1px;
 }
-
+/*want the navigation link in the bar to display in a line together, have a little margin to right and have a color of black*/
 header nav ul li {
     display: inline;
     margin-right: 20px;
+    color: black;
+    
 }
-
-body main {
-    margin-top: 200px;
-}
-
-body main p {
-    position: absolute;
-    margin-top: 550px;
-    margin-right: 100px;
-    left: 200px;
-    bottom: 300px;
-    text-align: center;
-}
-body section .row1 img{
+/*want the main section to stack in a column*/
+main {
     display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 45%;
-  height: 250px;
-}
-body section .row2 {
-    display: inline-block;
-    width: 300px;
-    margin-left: 365px;
-}
-body section .row3 {
-    display: inline-block;
-    width: 300px;
+    flex-direction: column; 
 
 }
-body section nav ul li {
-    display: inline-block;
-    margin-left: 100px;
-    font-weight: bold;
+/*want the row class content to center in the page*/ 
+.row{
+    display: flex;
+    justify-content: center;
 }
-@media screen and (max-width:992px){
-  .row2 .row3 {
-                 display: flex;
-                 flex-direction: column;
+/*want the card class content to be displayed in a line*/
+.card{
+display: inline;
 }
+/*want the links class to be displayed in a row*/
+.links{
+    display:flex;
+    flex-direction: row;
+}
+/*a lil margin on the left of the list items in the links class*/
+.links li{
+    margin-left: 50px;
+}
+/*want the row class content to center on the page*/
+.row{
+    align-items: center;
+}
+/*when the users screen is less than 640px, present attributes*/
+@media screen and (max-width: 640px) {
+    body {
+        background-color: lightgray;
+        justify-content: center;
+
+    }
+    body header nav ul{
+        background-color:lightgray;
+        display: flex;
+        flex-direction: column;
+    }
+    .row {
+        display:block;
+
+    }
+    header {
+        text-align: center;
+    }
+    header nav{
+        float: none;
+        margin: 0;
+    }
+    
+    
+}
+
