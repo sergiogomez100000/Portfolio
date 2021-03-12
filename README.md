@@ -10,3 +10,7 @@ You can use my portfolio to learn a little about me,look into my past projects, 
 
 ## Roadmap
 aside from making it look stylish, I want to insert real projects once I've made any so employers can see my projects.I want to format better when seen on different screen sizes.
+
+## Technologies Used 
+*HTML
+*CSS
