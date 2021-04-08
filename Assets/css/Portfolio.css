@@ -1,5 +1,6 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 body {
     background-color: slategray;
@@ -12,13 +13,15 @@ header {
         background-color: skyblue;
         border: solid 1px black;
         padding-left: 30px;
+        border-radius: 10px;
 }
 /*want the header navigation bar to float to the right, have a border and background color*/
 header nav {
     float: right;
     margin-right: 100px;
-    background-color:whitesmoke;
+    background-color:darkgrey;
     border:black solid 1px;
+    border-radius: 10px;
 }
 /*want the navigation link in the bar to display in a line together, have a little margin to right and have a color of black*/
 header nav ul li {
@@ -43,11 +46,11 @@ main {
 display: inline;
 }
 /*changes size of quiz image*/
-.quiz-image{
+.main-image{
     width: 908px;
     height: 300px;
 }
-.sidecardimage{
+.side-image{
     width: 300px;
     height: 200px;
 }
@@ -64,6 +67,9 @@ display: inline;
 /*want the row class content to center on the page*/
 .row{
     align-items: center;
+}
+.left{
+    font-size: 24px;
 }
 /*when the users screen is less than 640px, present attributes*/
 @media screen and (max-width: 640px) {
